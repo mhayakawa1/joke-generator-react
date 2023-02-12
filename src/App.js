@@ -24,7 +24,7 @@ function App (){
 
 
   const toggle = () => {
-    setShow((tf) => !tf);
+    setShow(true);
   };
 
 
