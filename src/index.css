@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Sanchez&display=swap);
 
 /*
-https://www.schemecolor.com/green-white-orange-blue.php
-https://www.schemecolor.com/blue-orange-mix.php
 https://www.schemecolor.com/modern-orange-blue.php
 */
 body{
@@ -13,19 +11,12 @@ body{
 }
 
 .container{
-  /*padding: 4rem;*/
   padding: 8%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-/*
-@media screen and (min-width: 2560px){
-  .container{
-    padding: 16rem;
-  }
-}
-*/
+
 @media screen and (max-width: 426px){
   .container{
     padding: 4rem 3rem 3rem 3rem;
