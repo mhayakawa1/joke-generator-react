@@ -1,13 +1,14 @@
 //https://github.com/15Dkatz/official_joke_api
-
-
-import React, {useState} from 'react';
-
+import React, {useState, useEffect} from 'react';
 
 function App (){
   const [setup, setSetup] = useState('');
   const [punchline, setPunchline] = useState('');
   const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    apiGet();
+  }, []);
 
   const apiGet = () => {
     fetch('https://official-joke-api.appspot.com/random_joke')
