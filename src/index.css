@@ -1,35 +1,193 @@
+/*
+https://www.schemecolor.com/green-white-orange-blue.php
+https://www.schemecolor.com/blue-orange-mix.php
+https://www.schemecolor.com/modern-orange-blue.php
+*/
 body{
-  margin: 4rem;
-  color: black;
+  font-family: 'Sanchez', serif;
+  background: linear-gradient(#16BAC2, #004E98);
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
+.container{
+  /*padding: 4rem;*/
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/*
+@media screen and (min-width: 2560px){
+  .container{
+    padding: 16rem;
+  }
+}
+*/
+@media screen and (max-width: 426px){
+  .container{
+    padding: 4rem 3rem 3rem 3rem;
+  }
+}
+
+@media screen and (max-width: 321px){
+  .container{
+    padding: 4rem 2rem 2rem 2rem;
+  }
+}
+
+h1{
+  font-size: 3rem;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (min-width: 2560px){
+  h1{
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 426px){
+  h1{
+    font-size: 2rem;
+  }
+}
 
 .buttons{
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 10%;
+  /*margin: 2rem 0 1rem 0;*/
+  margin: 4% 0 2% 0;
 }
+/*
+@media screen and (max-width: 2560px){
+  .buttons{
+    gap: 4rem;
+    margin: 4rem 0 2rem 0;
+  }
+}*/
 
+@media screen and (max-width: 426px){
+  .buttons{
+    gap: 1rem;
+    margin: 1rem 0 .5rem 0;
+  }
+}
 
 button{
+  font-family: 'Sanchez', serif;
+  font-size: 1rem;
+  color: white;
+  white-space: nowrap;
+  min-width: 10rem;
   width: auto;
   height: 3rem;
-  padding: 0 2rem 0 2rem;
-  background-color: gainsboro;
+  padding: 0 1rem 0 1rem;
+  background: linear-gradient(#F29200, #F26321);
   border-style: none;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
+@media screen and (min-width: 2560px){
+  button{
+    padding: 0 2rem 0 2rem;
+    height: 6rem;
+    min-width: 20rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px){
+  button{
+    padding: 0 1rem 0 1rem;
+    min-width: 5rem;
+    height: 2rem;
+    font-size: .75rem;
+  }
+}
 
 button:active{
-  background-color: gray;
+  background: linear-gradient(#F26321, #F29200);
 }
 
+.text-container{
+  background-color: white;
+  color: #004E98;
+  width: auto;
+  /*min-width: 30rem;
+  height: 10rem;
+  padding: 1rem 2rem 2rem 2rem;
+  */
+  min-width: 50%;
+  max-width: 80%;
+  height: 26%;
+  padding: 2% 4% 4% 4%;
+  border-radius: 5px;
+}
+
+/*@media screen and (min-width: 2560px){
+  .text-container{
+    height: 40rem;
+    min-width: 120rem;
+    padding: 4rem 8rem 8rem 8rem;
+  }
+}
+*/
+
+@media screen and (max-width: 426px){
+  .text-container{
+    min-width: 84%;
+    height: 30%;
+    padding: 2% 8% 4% 8%;
+  }
+}
+
+@media screen and (max-width: 321px){
+  .text-container{
+    min-height: 10rem;
+  }
+}
 
 .setup{
-  min-height: 2rem;
-  max-height: 4rem;
-  height: auto;
-  padding: 4rem 0 0 0;
+  min-height: 1.5rem;
   font-size: 1.5rem;
+}
+
+@media screen and (min-width: 2560px){
+  .setup{
+    min-height: 3rem;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .setup{
+    font-size: 1.25rem;
+    min-height: 4rem;
+    height: auto;
+  }
+}
+
+.punchline{
+  margin: 4% 0 2% 0;
+  font-size: 1rem;
+  height: 1rem;
+}
+
+@media screen and (min-width: 2560px){
+  .punchline{
+    font-size: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .punchline{
+    font-size: .75rem;
+    min-height: 1rem;
+    height: auto;
+  }
 }
