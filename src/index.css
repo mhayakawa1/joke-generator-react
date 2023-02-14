@@ -61,16 +61,8 @@ h1{
   display: flex;
   align-items: center;
   gap: 10%;
-  /*margin: 2rem 0 1rem 0;*/
   margin: 4% 0 2% 0;
 }
-/*
-@media screen and (max-width: 2560px){
-  .buttons{
-    gap: 4rem;
-    margin: 4rem 0 2rem 0;
-  }
-}*/
 
 @media screen and (max-width: 426px){
   .buttons{
@@ -119,25 +111,12 @@ button:active{
   background-color: white;
   color: #004E98;
   width: auto;
-  /*min-width: 30rem;
-  height: 10rem;
-  padding: 1rem 2rem 2rem 2rem;
-  */
   min-width: 50%;
   max-width: 80%;
   height: 26%;
   padding: 2% 4% 4% 4%;
   border-radius: 5px;
 }
-
-/*@media screen and (min-width: 2560px){
-  .text-container{
-    height: 40rem;
-    min-width: 120rem;
-    padding: 4rem 8rem 8rem 8rem;
-  }
-}
-*/
 
 @media screen and (max-width: 426px){
   .text-container{
@@ -174,7 +153,7 @@ button:active{
 }
 
 .punchline{
-  margin: 4% 0 2% 0;
+  margin: 4% 0 4% 0;
   font-size: 1rem;
   height: 1rem;
 }
